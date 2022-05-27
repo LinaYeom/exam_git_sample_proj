@@ -1,3 +1,6 @@
+// 1. 작성자 : 염정아 
+// 2. contact : 092874@naver.com
+// 3. write day : 2022-05-27
 const http = require('http');
 const express = require('express');
 const app = express();
@@ -88,6 +91,6 @@ app.get('/readFile', (req, res) => {
 });
 
 const server = http.createServer(app);
-server.listen(3001, ()=>{
-    console.log('run on server - http://localhost:3001');
+server.listen(3000, ()=>{
+    console.log('run on server - http://localhost:3000');
 });
